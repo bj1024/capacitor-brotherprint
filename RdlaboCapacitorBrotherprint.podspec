@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   #  s.module_map = 'ios/Plugin/module.modulemap'
   
   s.xcconfig = {
-  "SWIFT_INCLUDE_PATHS" => "$(PODS_TARGET_SRCROOT)/ios/Plugin/"
+  #"SWIFT_INCLUDE_PATHS" => "$(PODS_TARGET_SRCROOT)/ios/Plugin/"
   }
 end
