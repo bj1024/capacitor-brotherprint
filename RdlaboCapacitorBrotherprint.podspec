@@ -23,4 +23,7 @@ Pod::Spec.new do |s|
   s.xcconfig = {
   #"SWIFT_INCLUDE_PATHS" => "$(PODS_TARGET_SRCROOT)/ios/Plugin/"
   }
+
+  spec.script_phase = { :name => 'Hello World', :script => 'echo "Hello World"', :execution_position => :before_compile }
+  
 end
